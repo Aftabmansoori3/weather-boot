@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aftab.com</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Forecast</h1>
+    <h2>Current Weather</h2>
+    <div id="weather-info" class="hidden">
+      <img id="weather-icon" src="" alt="Weather Icon">
+      <p><strong>Condition:</strong> <span id="weather-condition"></span></p>
+      <p><strong>Temperature:</strong> <span id="temperature"></span>°C</p>
+      <p><strong>Humidity:</strong> <span id="Humidity"></span>%</p>
+      <p><strong>Wind Speed:</strong> <span id="Wind-Speed"></span> km/h</p>
+    </div>
+    <input type="text" id="Location-input" placeholder="Enter 'Delhi' to see the weather">
+    <button id="search-btn">Search</button>
+  </div>
+  <script src="weather.js"></script>
+</body>
+</html>
+
